@@ -14,5 +14,3 @@ spring:
     user: ${database-user:dummyUser}
     password: ${database-password:dummyPassword}
     enabled: true
-  jpa:
-    show-sql: true
