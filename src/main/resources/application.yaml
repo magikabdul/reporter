@@ -14,3 +14,5 @@ spring:
     user: ${database-user:dummyUser}
     password: ${database-password:dummyPassword}
     enabled: true
+server:
+  port: 7500
