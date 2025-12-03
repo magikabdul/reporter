@@ -38,6 +38,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-webflux'
     implementation 'org.flywaydb:flyway-database-postgresql'
     implementation 'org.springframework:spring-jdbc'
+    implementation 'org.apache.commons:commons-lang3:3.19.0'
 //    implementation 'org.springframework.cloud:spring-cloud-starter-vault-config'
     compileOnly 'org.projectlombok:lombok'
     runtimeOnly 'io.micrometer:micrometer-registry-prometheus'
@@ -62,8 +63,8 @@ dependencyManagement {
 
 sonar {
     properties {
-        property "sonar.projectKey", "magikabdul_reporter"
-        property "sonar.organization", "magikadbul"
+        property "sonar.projectKey", "magikabdul_reporter_1"
+        property "sonar.organization", "magikabdul"
     }
 }
 

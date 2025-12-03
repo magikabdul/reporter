@@ -1,6 +1,10 @@
 spring:
   application:
     name: reporter
+  web:
+    locale: en_US
+  webflux:
+    base-path: /reporter
   profiles:
     active: reporter
   datasource:
